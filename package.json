@@ -1,0 +1,18 @@
+{
+  "name": "eventcreator",
+  "version": "1.0.0",
+  "description": "Pings events to specified Azure Event Hub, with randomized values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Kennedy",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.2",
+    "node-cron": "^2.0.3",
+    "sync-request": "^6.1.0",
+    "utf8": "^3.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Event Creator</title>
+	</head>
+	<body>
+		<ul>
+		<%- feedback; %>
+		</ul>
+		
+		<form id="addNewEventHub" method="POST">
+			<p>
+			<input type="radio" name="startStop" value="start" checked><label for="start">Start</label>
+			<input type="radio" name="startStop" value="stop"><label for="stop">Stop</label>
+			</p>
+		    <label for="eventHubNamespace">Event Hub Namespace</label><br>
+			<input type="text" name="eventHubNamespace">
+			</p>
+			<p>
+			<label for="eventHubName">Event Hub Name</label><br>
+			<input type="text" name="eventHubName">
+			</p>
+			<p>
+			<label for="accessPolicyName">Access Policy Name</label><br>
+			<input type="text" name="accessPolicyName">
+			</p>
+			<p>
+			<label for="accessPolicyKey">Access Policy Key</label><br>
+			<input type="text" name="accessPolicyKey">
+			</p>
+		</form>
+		<button type="submit" form="addNewEventHub" value="Submit">Submit</button>
+	</body>
+</html>
